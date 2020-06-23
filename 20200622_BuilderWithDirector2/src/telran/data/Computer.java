@@ -1,0 +1,40 @@
+package telran.data;
+
+public class Computer {
+
+    private String display;
+    private String systemBlock;
+    private String manipulators;
+
+    public String getDisplay() {
+        return display;
+    }
+
+    public String getSystemBlock() {
+        return systemBlock;
+    }
+
+    public String getManipulators() {
+        return manipulators;
+    }
+
+    public void setDisplay(String display) {
+        this.display = display;
+    }
+
+    public void setSystemBlock(String systemBlock) {
+        this.systemBlock = systemBlock;
+    }
+
+    public void setManipulators(String manipulators) {
+        this.manipulators = manipulators;
+    }
+
+    @Override
+    public String toString() {
+        return "Computer \n" +
+                "display: " + display +
+                ", systemBlock: " + systemBlock +
+                ", manipulators: " + manipulators;
+    }
+}
